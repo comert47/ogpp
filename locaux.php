@@ -15,18 +15,20 @@
       </tr>
     </thead>
     <tbody>
+    <?php
+        connecte("ogpp");
+        $sql="SELECT * FROM locaux";
+        $res=mysql_query($sql) or die("Erreur de requete $sql");
+        while ($ligne=mysql_fetch_array($res)) {
+        extract($ligne);
+    ?>
     <tr>
-        <td>1</td>
-        <td>114</td>
-        <td>e</td>
+        <td><?php echo $locaux_id; ?></td>
+        <td><?php echo $locaux_num; ?></td>
+        <td><?php echo $locaux_batiment; ?></td>
         <td><a href="edit_locaux.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_locaux.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
-    <tr>
-        <td>2</td>
-        <td>121</td>
-        <td>p</td>
-        <td><a href="edit_locaux.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_locaux.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
-    </tr>
+    <?php } ?>
     </tbody>
   </table>
   <hr />
