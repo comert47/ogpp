@@ -1,7 +1,7 @@
 <?php include "header.php" ?>
 
 <div class="col-md-12">
-  <a href="#"><strong><i class="glyphicon glyphicon-list-alt"></i> Services</strong></a>  
+  <a href="#"><strong><i class="glyphicon glyphicon-refresh"></i> Services</strong></a>  
   <hr />
 </div>
 <div class="col-md-12">
