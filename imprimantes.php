@@ -13,98 +13,28 @@
         <th>Modèle</th>
         <th>Service</th>
         <th>Localisation</th>
+        <!-- <th>Étage</th> -->
         <th>Actions</th>
       </tr>
     </thead>
     <tbody>
+    <?php
+        connecte("ogpp");
+        $sql="SELECT * FROM imprimantes";
+        $res=mysql_query($sql) or die("Erreur de requete $sql");
+        while ($ligne=mysql_fetch_array($res)) {
+        extract($ligne);
+    ?>
     <tr>
-        <td>1</td>
-        <td>xerox_p_1</td>
-        <td>Xerox</td>
-        <td>Administratif</td>
-        <td>p_1</td>
+        <td><?php echo $print_id; ?></td>
+        <td><?php echo $print_nom; ?></td>
+        <td><?php echo $print_model; ?></td>
+        <td><?php echo $print_service; ?></td>
+        <!-- <td><?php echo $print_etage; ?></td> -->
+        <td><?php echo $locaux_id; ?></td>
         <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
-    <tr>
-        <td>2</td>
-        <td>xerox_p_2</td>
-        <td>Xerox</td>
-        <td>Administratif</td>
-        <td>p_2</td>
-        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>xerox_p_1</td>
-        <td>Xerox</td>
-        <td>Administratif</td>
-        <td>p_1</td>
-        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>xerox_p_1</td>
-        <td>Xerox</td>
-        <td>Administratif</td>
-        <td>p_1</td>
-        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>xerox_p_1</td>
-        <td>Xerox</td>
-        <td>Administratif</td>
-        <td>p_1</td>
-        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
-    </tr>
-    <tr>
-        <td>6</td>
-        <td>xerox_p_1</td>
-        <td>Xerox</td>
-        <td>Administratif</td>
-        <td>p_1</td>
-        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
-    </tr>
-    <tr>
-        <td>7</td>
-        <td>xerox_p_1</td>
-        <td>Xerox</td>
-        <td>Administratif</td>
-        <td>p_1</td>
-        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
-    </tr>
-    <tr>
-        <td>8</td>
-        <td>xerox_p_1</td>
-        <td>Xerox</td>
-        <td>Administratif</td>
-        <td>p_1</td>
-        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
-    </tr>
-    <tr>
-        <td>9</td>
-        <td>xerox_p_1</td>
-        <td>Xerox</td>
-        <td>Administratif</td>
-        <td>p_1</td>
-        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
-    </tr>
-    <tr>
-        <td>10</td>
-        <td>xerox_p_1</td>
-        <td>Xerox</td>
-        <td>Administratif</td>
-        <td>p_1</td>
-        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
-    </tr>
-    <tr>
-        <td>11</td>
-        <td>xerox_p_1</td>
-        <td>Xerox</td>
-        <td>Administratif</td>
-        <td>p_1</td>
-        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
-    </tr>
+    <?php } ?>
     </tbody>
   </table>
   <hr />
