@@ -23,7 +23,13 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          
+          <li>
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Rechercher ...">
+              </div>
+            </form>
+          </li>
           <li>
             <a href="#"><i class="glyphicon glyphicon-user"></i> Root</a>
           </li>
