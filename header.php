@@ -4,6 +4,7 @@
   Powered by Bootply : http://s.bootply.com/render/85850
   https://github.com/heuzef/ogpp
 -->
+<?php include "fonctions.php" ?>
 <html lang="fr">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
