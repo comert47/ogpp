@@ -13,10 +13,18 @@
       </tr>
     </thead>
     <tbody>
+    <?php
+        connecte("ogpp");
+        $sql="SELECT * FROM impression";
+        $res=mysql_query($sql) or die("Erreur de requete $sql");
+        while ($ligne=mysql_fetch_array($res)) {
+        extract($ligne);
+    ?>
     <tr>
-        <td>1</td>
-        <td>2</td>
+        <td><?php echo $print_id; ?></td>
+        <td><?php echo $user_id; ?></td>
     </tr>
+    <?php } ?>
     </tbody>
   </table>
   <hr />
