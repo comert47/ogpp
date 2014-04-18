@@ -19,6 +19,7 @@
 			$connexion=mysql_connect($hote,$utilisateur,$pass) or die ("connexion au serveur impossible !");
 			$db=mysql_select_db($base,$connexion) or die ("selection de la base $base impossible !");
 		}
+		mysql_query("SET NAMES UTF8"); 
 	}
 
 	function requete($sql)
