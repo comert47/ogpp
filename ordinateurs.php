@@ -15,6 +15,7 @@
         <th>RAM (Go)</th>
         <th>Disque Dur (Go)</th>
         <th>Utilisateur</th>
+        <th>Local</th>
       </tr>
     </thead>
     <tbody>
@@ -26,6 +27,7 @@
         <td>8</td>
         <td>128</td>
         <td>heuzef</td>
+        <td>e_114</td>
     </tr>
     <tr>
         <td>2</td>
@@ -35,6 +37,7 @@
         <td>4</td>
         <td>1024</td>
         <td>bebienc</td>
+        <td>p_121</td>
     </tr>
     </tbody>
   </table>
