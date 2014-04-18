@@ -5,7 +5,7 @@
     <div class="panel-heading">
       <div class="panel-title">
         <i class="glyphicon glyphicon-plus-sign pull-right"></i>
-        <h4>Ajouter une imprimante</h4>
+        <h4>Ajouter une UC</h4>
       </div>
     </div>
     <div class="panel-body">
@@ -21,17 +21,28 @@
             <input type="text" class="form-control" placeholder="Modèle" required>
           </div>
           <br />
+          <label>Processeur</label>
+          <div class="controls">
+            <input type="text" class="form-control" placeholder="Processeur" required>
+          </div>
+          <br />
+          <label>RAM</label>
+          <div class="controls">
+            <input type="text" class="form-control" placeholder="RAM" required>
+          </div>
+          <br />
+          <label>Disque Dur</label>
+          <div class="controls">
+            <input type="text" class="form-control" placeholder="Disque Dur" required>
+          </div>
+          <br />
         </div>
         <div class="control-group">
-          <label>Services</label>
+          <label>Utilisateur</label>
           <div class="controls">
             <select class="form-control">
-                <option>Direction</option>
-                <option>Administratif</option>
-                <option>Informatique</option>
-                <option>SAV</option>
-                <option>Phare Fadet</option>
-                <option>Phare Ouch</option>
+                <option>heuzef</option>
+                <option>bebienc</option>
             </select>
           </div>
         </div>
