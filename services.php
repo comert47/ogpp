@@ -7,15 +7,36 @@
 <div class="col-md-12">
   <table class="table table-striped">
     <thead>
-      <tr><th>Visits</th><th>ROI</th><th>Source</th><th>Description and Notes</th></tr>
+      <tr>
+        <th>#</th>
+        <th>Nom du service</th>
+      </tr>
     </thead>
     <tbody>
-      <tr><td>45</td><td>2.45%</td><td>Direct</td><td>Sam sapien massa, aliquam in cursus ut, ullamcorper in tortor. 
-      Aliquam mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.</td></tr>
-      <tr><td>289</td><td>56.2%</td><td>Referral</td><td>After RWD massa, aliquam in cursus ut, ullamcorper in tortor. 
-      Aliquam mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.</td></tr>
-      <tr><td>98</td><td>25%</td><td>Type</td><td>Wil sapien massa, aliquam in cursus ut, ullamcorper in tortor. 
-      Liquam mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.</td></tr>
+    <tr>
+        <td>1</td>
+        <td>Direction</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Administratif</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Informatique</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>SAV</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Phare Fadet</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Phare Ouch</td>
+    </tr>
     </tbody>
   </table>
   <hr />
