@@ -12,7 +12,7 @@
 	function connecte($base)
 	{
 		$hote="localhost";
-		$utilisateur="root";
+		$utilisateur="ogpp";
 		$pass="proot";
 		if(!isset($connexion))
 		{

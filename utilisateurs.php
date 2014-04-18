@@ -5,7 +5,20 @@
   <hr />
 </div>
 <div class="col-md-12">
-  <table class="table table-striped">
+
+<?php
+connecte("ogpp");
+$sql="SELECT * FROM utilisateurs";
+$res=mysql_query($sql) or die("Erreur de requete $sql");
+while ($ligne=mysql_fetch_array($res)) {
+extract($ligne);
+?>
+
+<div>
+    <p><?php echo $user_nom; ?></p>
+</div>
+
+<!--   <table class="table table-striped">
     <thead>
       <tr>
         <th>#</th>
@@ -42,6 +55,7 @@
     </tbody>
   </table>
   <hr />
-</div>
+</div> -->
 
+<?php } ?>
 <?php include "footer.php" ?>
