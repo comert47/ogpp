@@ -1,7 +1,7 @@
 <?php include "header.php" ?>
 
 <div class="col-md-12">
-  <a href="#"><strong><i class="glyphicon glyphicon-refresh"></i> Ordinateurs</strong></a>  
+  <a href="ordinateurs.php"><strong><i class="glyphicon glyphicon-refresh"></i> Ordinateurs</strong></a>  
   <hr />
 </div>
 <div class="col-md-12">
@@ -16,6 +16,7 @@
         <th>Disque Dur (Go)</th>
         <th>Utilisateur</th>
         <th>Local</th>
+        <th>Actions</th>
       </tr>
     </thead>
     <tbody>
@@ -28,6 +29,7 @@
         <td>128</td>
         <td>heuzef</td>
         <td>e_114</td>
+        <td><a href="edit_ordinateurs.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_ordinateurs.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     <tr>
         <td>2</td>
@@ -38,6 +40,7 @@
         <td>1024</td>
         <td>bebienc</td>
         <td>p_121</td>
+        <td><a href="edit_ordinateurs.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_ordinateurs.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     </tbody>
   </table>

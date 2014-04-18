@@ -15,6 +15,7 @@
         <th>Tel</th>
         <th>Email</th>
         <th>Service</th>
+        <th>Actions</th>
       </tr>
     </thead>
     <tbody>
@@ -26,6 +27,7 @@
         <td>0631326654</td>
         <td>contact@heuzef.com</td>
         <td>Informatique</td>
+        <td><a href="edit_utilisateurs.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_utilisateurs.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     <tr>
         <td>2</td>
@@ -35,6 +37,7 @@
         <td>0600000000</td>
         <td>bebienc@pharaon.com</td>
         <td>Informatique</td>
+        <td><a href="edit_utilisateurs.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_utilisateurs.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     </tbody>
   </table>

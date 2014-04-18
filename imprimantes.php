@@ -1,7 +1,7 @@
 <?php include "header.php" ?>
 
 <div class="col-md-12">
-  <a href="#"><strong><i class="glyphicon glyphicon-refresh"></i> Imprimantes</strong></a>  
+  <a href="imprimantes.php"><strong><i class="glyphicon glyphicon-refresh"></i> Imprimantes</strong></a>  
   <hr />
 </div>
 <div class="col-md-12">
@@ -13,6 +13,7 @@
         <th>Modèle</th>
         <th>Service</th>
         <th>Localisation</th>
+        <th>Actions</th>
       </tr>
     </thead>
     <tbody>
@@ -22,6 +23,7 @@
         <td>Xerox</td>
         <td>Administratif</td>
         <td>p_1</td>
+        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     <tr>
         <td>2</td>
@@ -29,6 +31,7 @@
         <td>Xerox</td>
         <td>Administratif</td>
         <td>p_2</td>
+        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     <tr>
         <td>3</td>
@@ -36,6 +39,7 @@
         <td>Xerox</td>
         <td>Administratif</td>
         <td>p_1</td>
+        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     <tr>
         <td>4</td>
@@ -43,6 +47,7 @@
         <td>Xerox</td>
         <td>Administratif</td>
         <td>p_1</td>
+        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     <tr>
         <td>5</td>
@@ -50,6 +55,7 @@
         <td>Xerox</td>
         <td>Administratif</td>
         <td>p_1</td>
+        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     <tr>
         <td>6</td>
@@ -57,6 +63,7 @@
         <td>Xerox</td>
         <td>Administratif</td>
         <td>p_1</td>
+        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     <tr>
         <td>7</td>
@@ -64,6 +71,7 @@
         <td>Xerox</td>
         <td>Administratif</td>
         <td>p_1</td>
+        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     <tr>
         <td>8</td>
@@ -71,6 +79,7 @@
         <td>Xerox</td>
         <td>Administratif</td>
         <td>p_1</td>
+        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     <tr>
         <td>9</td>
@@ -78,6 +87,7 @@
         <td>Xerox</td>
         <td>Administratif</td>
         <td>p_1</td>
+        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     <tr>
         <td>10</td>
@@ -85,6 +95,7 @@
         <td>Xerox</td>
         <td>Administratif</td>
         <td>p_1</td>
+        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     <tr>
         <td>11</td>
@@ -92,6 +103,7 @@
         <td>Xerox</td>
         <td>Administratif</td>
         <td>p_1</td>
+        <td><a href="edit_imprimantes.php"><i class="glyphicon glyphicon-pencil">&nbsp;</i></a><a href="delete_imprimantes.php"><i class="glyphicon glyphicon-trash">&nbsp;</i></a></td>
     </tr>
     </tbody>
   </table>
