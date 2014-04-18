@@ -1,7 +1,7 @@
 <?php include "header.php" ?>
 
 <div class="col-md-12">
-  <a href="#"><strong><i class="glyphicon glyphicon-list-alt"></i> Utilisateurs</strong></a>  
+  <a href="#"><strong><i class="glyphicon glyphicon-list-alt"></i> Locaux</strong></a>  
   <hr />
 </div>
 <div class="col-md-12">
