@@ -9,7 +9,7 @@
     <thead>
       <tr>
         <th>#</th>
-        <th>Model</th>
+        <th>Modèle</th>
         <th>Taille</th>
         <th>Affiliation</th>
       </tr>
