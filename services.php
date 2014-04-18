@@ -13,30 +13,18 @@
       </tr>
     </thead>
     <tbody>
+    <?php
+        connecte("ogpp");
+        $sql="SELECT * FROM services";
+        $res=mysql_query($sql) or die("Erreur de requete $sql");
+        while ($ligne=mysql_fetch_array($res)) {
+        extract($ligne);
+    ?>
     <tr>
-        <td>1</td>
-        <td>Direction</td>
+        <td><?php echo $service_id; ?></td>
+        <td><?php echo $service_nom; ?></td>
     </tr>
-    <tr>
-        <td>2</td>
-        <td>Administratif</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Informatique</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>SAV</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>Phare Fadet</td>
-    </tr>
-    <tr>
-        <td>6</td>
-        <td>Phare Ouch</td>
-    </tr>
+    <?php } ?>
     </tbody>
   </table>
   <hr />
