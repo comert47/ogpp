@@ -19,18 +19,22 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-toggle"></span></button>
-        <a class="navbar-brand" href="index.php">OGPP</a>
+        <a href="index.php"><img id="logo" src="./img/pharaon_icon_hd.png" alt="logo"><span id="text_logo">OGPP</span></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-user"></i> Root <span class="caret"></span></a>
-            <ul id="g-account-menu" class="dropdown-menu" role="menu">
-              <li><a href="#"><i class="glyphicon glyphicon-lock"></i> Déconnection</a></li>
-            </ul>
+          
+          <li>
+            <a href="#"><i class="glyphicon glyphicon-user"></i> Root</a>
           </li>
+          <li><a href="#"><i class="glyphicon glyphicon-lock"></i> Déconnection</a></li>
         </ul>
       </div>
     </div>
   </div>
-  
+  <div class="container">
+    <div class="row">
+      <?php include "menu.php" ?>
+      <div class="col-md-9">  
+        <div class="row">
+<!-- content -->
