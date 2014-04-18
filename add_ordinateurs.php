@@ -48,6 +48,16 @@
         </div>
         <br />
         <div class="control-group">
+          <label>Écran</label>
+          <div class="controls">
+            <select class="form-control">
+                <option>dell_heuzef</option>
+                <option>hp_bebienc</option>
+            </select>
+          </div>
+        </div>
+        <br />
+        <div class="control-group">
           <label>Local</label>
           <div class="controls">
             <select class="form-control">
@@ -58,6 +68,11 @@
             </select>
           </div>
         </div>
+        <br />
+          <label>Date de mise en service</label>
+          <div class="controls">
+            <input type="date" class="form-control" placeholder="Date de mise en service" required>
+          </div>
         <div class="control-group">
           <label></label>
           <div class="controls">
